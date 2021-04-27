@@ -1312,6 +1312,12 @@ select {
     @media(max-width:992px){
       .logo-wrapper{display: none;}
     }
+
+
+    @media(min-width:992px){
+      .logo-image-wrapper img{display: none;}
+    }
+
     .navbar-span-big{
       color: white;
       font-size: 32px;
@@ -1479,4 +1485,8 @@ select {
     width: 45px;
     height: 45px ;
   }
+}
+
+#main-carousel .carousel-inner .carousel-caption h5,p{
+    letter-spacing: 0.5px;
 }
