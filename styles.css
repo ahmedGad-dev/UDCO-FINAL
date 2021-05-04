@@ -796,7 +796,10 @@ font-weight: bold;
               width: 18.5%;
               border-bottom: 5px solid rgb(40, 70, 96);
             }
-
+     
+            .custom .sp-sp{font-size: 30px;
+            }
+      
             @media(max-width:992px){
               .the-after-class-perm::after{width: 10%;}
             }
@@ -1490,3 +1493,4 @@ select {
 #main-carousel .carousel-inner .carousel-caption h5,p{
     letter-spacing: 0.5px;
 }
+
